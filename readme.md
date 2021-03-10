@@ -6,10 +6,10 @@
 
 ##  Sommaire: 
 [I. Présentation](#presentation) <br>
-[II. Initialisation et Chargement des données](Voir NoteBook)(#initialisation) <br>
-[III. Exploration des donnéess](Voir NoteBook)(#exploration) <br>
-[IV. Algorithmes d'apprentissage](Voir NoteBook)(#algorithmes)<br>
-[V. Exploitation des Modèles](Voir NoteBook)(#Model_exploitation)<br>
+[II. Initialisation et Chargement des données](#initialisation)(Voir NoteBook) <br>
+[III. Exploration des donnéess](exploration)(Voir NoteBook) <br>
+[IV. Algorithmes d'apprentissage](#algorithmes)(Voir NoteBook)<br>
+[V. Exploitation des Modèles](#Model_exploitation)(Voir NoteBook)<br>
 [VI. Conclusion](#conclusion)    <br>
 
 ## [I.  Présentation du projet](#sommaire) 
@@ -57,7 +57,7 @@ Merci de voir le note pour les autres sections du sommaire.
 
 
 ## [VI. Conclusion](#sommaire) <a name='conclusion'><a>
-Dans ce projet nous avons étudié un problème de classification binaire. Nous avons débuté par le chargement de nos données et effectué quelques traitements sur ces données avant de réaiser une étude comparative de huit classifiers. La comparaison effectuée, nous avons cinq classifiers qui avaient les scores d'accuracy les plus élevés. Nous avons également pu voir d'autre méthode d'évalutaion notamment le learning curve et ROC curve qui apportent les informations sur la précision des diffierents classifiers. <br>
+    Dans ce projet nous avons étudié un problème de classification binaire. Nous avons débuté par le chargement de nos données et effectué quelques traitements sur ces données avant de réaiser une étude comparative de huit classifiers. La comparaison effectuée, nous avons cinq classifiers qui avaient les scores d'accuracy les plus élevés. Nous avons également pu voir d'autre méthode d'évalutaion notamment le learning curve et ROC curve qui apportent les informations sur la précision des diffierents classifiers. <br>
 Nous avions un dataset un peu déséquilibré que et nous avons utilisé une technique de resampling pour reéchantilloner nos données et nous avons remarqué une amélioration de certains classifiers cependant on pouvait voir au niveau des learning curve que les modèles étaient trop adptés qux données d'apprentissage alors nous avons décidé ne pas utilisés les modèles issus de cette approche.<br>
 Au final nous retenons que ce projet nous a permis de mettre en pratique beaucoup de notions liées au Machine Learning et il nous a également permis de voir des concepts avancés liés à la performance des algorithmes de classification.
 
